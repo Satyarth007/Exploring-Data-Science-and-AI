@@ -1,0 +1,30 @@
+
+Python is a high-level programming language.
+FastAPI is used to build high-performance APIs.
+Docker is used for containerization.
+Kubernetes manages container orchestration.
+AI stands for Artificial Intelligence.
+Machine learning is a subset of AI.
+Deep learning uses neural networks.
+Transformers are powerful NLP architectures.
+Embeddings convert text into vectors.
+Vector databases store embeddings.
+APIs allow communication between systems.
+REST APIs use HTTP protocols.
+Git is used for version control.
+Linux is widely used for servers.
+Cloud computing provides scalable resources.
+Microservices architecture splits systems into services.
+Redis is an in-memory data store.
+SQL databases store structured data.
+NoSQL databases store flexible data.
+Cybersecurity protects systems and data.
+Authentication verifies identity.
+Authorization controls permissions.
+Latency is request response delay.
+Throughput is system processing capacity.
+CI/CD automates software delivery.
+Unit testing validates small code units.
+Integration testing checks system components together.
+Logging helps debug applications.
+Monitoring tracks system performance.

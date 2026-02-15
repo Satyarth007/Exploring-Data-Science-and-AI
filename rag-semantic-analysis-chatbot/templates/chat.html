@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AI Chat</title>
+</head>
+<body>
+<h2>RAG Chatbot</h2>
+
+<input id="msg" placeholder="Ask something"/>
+<button onclick="send()">Send</button>
+
+<pre id="chat"></pre>
+
+<script>
+async function send(){
+let msg = document.getElementById("msg").value;
+let res = await fetch(`/chat?q=${msg}`);
+let data = await res.json();
+
+document.getElementById("chat").innerText +=
+"\nYou: "+msg+"\nBot: "+data.response+"\n";
+}
+</script>
+
+</body>
+</html>
